@@ -3,21 +3,7 @@
  */
 package com.wipro.java.oops.inheritance;
 
-/**
- * 
- */
 public class Employee {
-
-	/**
-	 * 
-	 */
-	public Employee() {
-		// TODO Auto-generated constructor stub
-	}
-
-	/**
-	 * @param args
-	 */
 	private String employeeName;
 	private int employeeId;
 	private float Salary;
@@ -46,12 +32,5 @@ public class Employee {
 		this.employeeId = employeeId;
 	}
 
-	
-	
-	
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
 
 }
