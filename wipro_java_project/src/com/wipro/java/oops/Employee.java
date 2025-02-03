@@ -20,7 +20,16 @@ public class Employee {
 	 */
 	private String employeeName;
 	private int employeeId;
-	private String empEmail;
+	private float Salary;
+	
+	public float getSalary() {
+		return Salary;
+	}
+
+	public void setSalary(float salary) {
+		Salary = salary;
+	}
+
 	public String getEmployeeName() {
 		return employeeName;
 	}
@@ -37,14 +46,7 @@ public class Employee {
 		this.employeeId = employeeId;
 	}
 
-	public String getEmpEmail() {
-		return empEmail;
-	}
-
-	public void setEmpEmail(String empEmail) {
-		this.empEmail = empEmail;
-	}
-
+	
 	
 	
 	public static void main(String[] args) {
