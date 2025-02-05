@@ -1,6 +1,6 @@
 package com.wipro.java.collection;
 import java.util.*;
-public class MapOperations {
+public class MapImplementation {
 	public static void main(String args[]) {
 		Map<Integer,String> mp=new HashMap<>();
 		mp.put(1, "Apple");
